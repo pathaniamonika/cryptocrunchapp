@@ -1,0 +1,181 @@
+
+/*Main CSS*/
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #777;
+    font-size:1 rem;
+  }
+  .main-container {
+    padding-left: 85px;
+    padding-right: 15px;
+    position: relative;
+}
+  .main-menu {
+  background: #000000; /* Old browsers */
+  background: -moz-linear-gradient(left, #000000 0%, #5ccea7 0%, #53c5d1 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #000000 0%,#5ccea7 0%,#53c5d1 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #000000 0%,#5ccea7 0%,#53c5d1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#53c5d1',GradientType=1 ); /* IE6-9 */
+  width:70px;
+  height: 100%;
+  position: fixed;
+  top:0px;
+  left: 0px;
+  }
+
+  .main-menu ul {
+    padding: 0px;
+    text-align: center;
+  }
+  .main-menu li {
+    display: block;
+    list-style: none;
+  }
+  .main-menu ul li a {
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    border-bottom: 1px solid #fff;
+  }
+  .main-menu ul li:last-child a {
+    border-bottom: 0px;
+  }
+  .main-menu ul li i 
+  {
+      font-size: 20px;
+  }
+header h1 {
+    color: #55c7c7;
+    font-size: 28px;
+    line-height: 32px;
+    margin: 0px;
+    font-weight: 700;
+    text-align: left;
+  }
+  .social-icons {
+      text-align:right;
+    }
+ .social-icons i {
+    color: #b7b7b7;
+    padding: 0px 5px;
+  }
+  header {
+    padding: 20px 0px;
+    border-bottom: 1px solid #ddd;
+}
+.search {
+    margin-right: 15px;
+}
+.search input {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px;
+    height: 30px;
+    width: 160px;
+    color: #000;
+}
+.search input:focus{outline: none;}
+.news-ad 
+{
+    background-color: #eaeaea;
+    color:#000;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+.news-date, .headlines, .tickers 
+{
+    padding: 10px;
+}
+.coinsdetail p 
+{
+  margin: 0px;
+  font-size: 20px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.coinsdetail span
+{
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0px 3px;
+}
+.coinsdetail span.up{color: green;}
+.coinsdetail span.down{color: red;}
+.left-prev {
+  text-align: left!important;
+  width: auto!important;
+  padding: 0px!important;
+  position: absolute;
+  left: 30px;
+  top: 2px;
+  background: transparent;
+  border: 0px;
+  font-size: 30px;
+  color: rgba( 0, 0, 0, 0.20);
+}
+.right-next {
+  text-align: left;
+  width: auto !important;
+  padding: 0px !important;
+  position: absolute;
+  right: 30px;
+  top: 2px;
+  background: transparent;
+  border: 0px;
+  font-size: 30px;
+  color: rgba( 0, 0, 0, 0.20);
+}
+.left-prev p, .right-next p{margin: 0px;}
+.left-prev:focus, .right-next:focus
+{
+  outline: none;
+}
+.alice-carousel {padding: 0px 40px;}
+/*Market*/
+.table.cointable th
+{
+  background-color: #56C8C0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+
+}
+.table.cointable td
+{
+  color: #000;
+  font-size: 18px;
+  vertical-align: middle;
+
+}
+.cointable img {
+  width: 50px;
+  height: 50px;
+}
+.greenfont {
+  color: green;
+}
+.redfont {
+  color: red;
+}
+/*About*/
+.sec-title {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+.about-section 
+{
+  border-bottom: 1px solid #ddd;
+}
+.about-section p {
+  font-size: 1rem;
+  margin: 0px;
+  color: rgba(0, 0, 0, 0.80);
+}
