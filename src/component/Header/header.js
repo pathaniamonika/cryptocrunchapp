@@ -3,10 +3,13 @@ const  Header = () => {
     return (
       <header>
       <div className="row">
-        <div className="col-6">
-          <h1>CryptoCrunch App</h1>
+        <div className="col-sm-6">
+          <h1>
+            <img className="img-fluid d-sm-none mr-2" src={require('../../assets/img/logo-green.png')} alt="Logo"/>
+              CryptoCrunch App
+          </h1>
         </div>
-        <div className="col-6 d-flex justify-content-end">
+        <div className="col-sm-6 d-flex justify-content-md-end justify-content-center">
         <div className="search">
           <input text="type" placeholder="Search"/>
           <button type="button"><i className="fas fa-search"></i></button>

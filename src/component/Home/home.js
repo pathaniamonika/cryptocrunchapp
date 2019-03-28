@@ -60,7 +60,7 @@ class Home extends React.Component {
                     <button className="left-prev" onClick={() => this.Carousel._slidePrev()}><i className="fa fa-angle-left" aria-hidden="true"></i></button>
                     <button className="right-next" onClick={() => this.Carousel._slideNext()}><i className="fa fa-angle-right" aria-hidden="true"></i></button>
                 </div>
-                <div className="col-sm-9">
+                <div className="col-sm-9 news-ad-cover">
                     <div className="news-ad d-flex justify-content-between align-items-center mt-3">
                         <div className="d-flex justify-content-start">
                             <div className="news-date">

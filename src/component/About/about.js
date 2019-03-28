@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const About = () => {
   return (
@@ -14,23 +15,23 @@ const About = () => {
     </div>
     <div className="col-sm-10 mx-auto about-section pb-5 pt-5">
       <h3 className="sec-title">Our Telegram Partners</h3>
-      <div className="col-md-3 col-sm-4 mx-auto">
+      <div className="col-md-3 mx-auto">
         <a href="https://t.me/crypto_news" target="_blank"><img className="mt-3 btn img-fluid" src="https://i.imgur.com/jb69AdC.png" alt="CoinCoach" rel="nofollow"/></a>
       </div>
     </div>
     <div className="col-sm-10 mx-auto about-section pb-5 pt-5">
-      <h3 className="sec-title">OurR Social Media Partners</h3>
+      <h3 className="sec-title">Our Social Media Partners</h3>
       <div className="row"> 
-        <div className="col-sm-3">
+        <div className="col-md-3">
           <a href="https://www.instagram.com/litecoinofficial/" target="_blank"><img className="mt-3 btn img-fluid" src={require('../../assets/img/LitecoinOfficial_logo.png')} alt="CoinCoach" rel="nofollow"/></a>
         </div>
-        <div className="col-sm-3">
+        <div className="col-md-3">
           <a href="https://instagram.com/cryptoworld.info/" target="_blank"><img className="mt-3 btn img-fluid" src={require('../../assets/img/cryptoworld.png')} alt="CoinCoach" rel="nofollow"/></a>
         </div>
-        <div className="col-sm-3">
+        <div className="col-md-3">
           <a href="https://www.instagram.com/TheWolfOfBitcoins/" target="_blank"><img className="mt-3 btn img-fluid" src={require('../../assets/img/Rv5FSFu.png')} alt="CoinCoach" rel="nofollow"/></a>
         </div>
-        <div className="col-sm-3">
+        <div className="col-md-3">
           <a href="https://www.instagram.com/investedcrypto/" target="_blank"><img className="mt-3 btn img-fluid" src={require('../../assets/img/invested_crypto.png')} alt="CoinCoach" rel="nofollow"/></a>
         </div>
       </div>
@@ -38,6 +39,9 @@ const About = () => {
     <div className="col-sm-10 mx-auto about-section pb-5 pt-5">
       <h3 className="sec-title">Our News Partners</h3>
       <a href="https://cryptodaily.co.uk/" target="_blank"><img className="mt-3 btn img-fluid" src={require('../../assets/img/crypto-daily-big-with-R.png')} /></a>
+    </div>
+    <div className="col-sm-10 mx-auto d-flex justify-content-end p-1">
+        <a href="policy.js">Privacy Policy</a>
     </div>
 </div>
 

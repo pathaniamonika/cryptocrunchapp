@@ -9,7 +9,7 @@ class Menu extends Component {
 
         <div className="main-menu"> 
           <ul>
-            <li><NavLink to="/">Logo</NavLink></li>
+            <li className="d-none d-sm-block"><NavLink to="/"><img className="img-fluid" src={require('../../assets/img/logo.png')} alt="Logo"/></NavLink></li>
             <li><NavLink to="/"><i className="far fa-newspaper"></i> News</NavLink></li>
             <li><NavLink to="/market"><i className="fas fa-chart-bar"></i> Market</NavLink></li>
             <li><NavLink to="/about"><i className="far fa-id-card"></i> About</NavLink></li>
